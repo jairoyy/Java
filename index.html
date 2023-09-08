@@ -65,10 +65,343 @@
                 3and7
 
             </output>
+
+           <h3>Variables and Datatypes</h3>
+           <p>A variable is a container that stores data values.</p>
+
+           
+          <pre>
+            <code>
+                class Codechef
+                {
+                    public static void main (String[] args)
+                    {
+                        int length = 45;
+                        int width = 76;
+                        int area = length * width;
+                        System.out.println("The Area of the given rectangle is " + area);
+                    }
+                }
+    
+            </code>
+          </pre>
+          
+
+          <h5>Output</h5>
+          <output>
+            The Area of the given rectangle is <b>3420</b>.
+          </output>
+
+<hr>
+           
+<br>
+
+       <pre>Ex.01
+        <code>
+              
+            class Codechef
+            {
+                public static void main (String[] args)
+                {
+                    // your code goes here
+                    double pi = 3.14;
+                    double radius = 8.9;
+                    double area = pi * radius * radius;
+                    System.out.println("The Area of the given Circle is " + area);
+                }
+            }
+        </code>
+       </pre>
+
+       <h5>Output</h5>
+       <output>
+        The Area of the given Circle is <b>248.71940000000004</b>
+       </output>
+       <br>
+       
+<hr>
+
+         <pre>Ex.02
+         <code>
+            class Codechef
+            {
+                public static void main (String[] args)
+                {
+                    boolean x = true;
+                    boolean y = false;
+                    System.out.print(x + "\n" + y);
+                }
+            }
+         </code>
+            
+         </pre>            
+
+          <h5>Output</h5>
+          <output>
+            true<br>
+            false<br>
+          </output>
+
+          <hr>
+           
+       
+        <pre>Ex.03
+
+            <code>
+            class Codechef
+            {
+                public static void main (String[] args)
+                {
+                    String a = "Code";
+                    String b = "Chef";
+                    System.out.println(a + b);
+                }
+            }
+        </code>
+
+        </pre>
+
+        <h5>Output</h5>
+        <output>
+            Codechef
+        </output>
+        <br>
+        <hr>
+            
       
+        <pre>Ex.04
+          <code>
+            class Codechef
+            {
+                public static void main (String[] args)
+                {
+                    
+                    int a = -50;
+                    int b = 40;
+                    int sum = a+b;
+                    int product = a*b;
+                    int quotient = a/b;
+                    System.out.println(sum);
+                    System.out.println(product);    
+                    System.out.print(quotient);    
+                }
+            }
+          </code>
+        </pre>
+
+      
+        <h5>Output</h5>
+         <output>
+            -10<br>
+            -2000<br>
+            -1<br>
+         </output>
+         <br>
+         <hr>
+                 
+            
+            
+            <!-- Creating String-->
+
+            <h3>String</h3>
+
+
+              <pre>
+                <code>
+                    class Codechef
+                    {
+                        public static void main (String[] args)
+                        {
+                           
+                            String fruit = "Apple";
+                            System.out.print(fruit);
+                        }
+                    }
+                </code>
+              </pre>
+
+                  
+                 <h5>Output</h5>
+                 <output>Apple</output>
+                 <br>
+                 <hr>
+
+
+                 <pre>Ex.01
+                  <output>
+                    class Codechef
+                    {
+                        public static void main (String[] args)
+                        {
+                            String x = "Hello";
+                            String y = "World";
+                            System.out.print(x + " " + y);
+                        }
+                    }
+                  </output>
+                 </pre>
+
+                 <h5>Output
+                 </h5>
+                 <output>Hello World</output>
+                <br>
+                <hr>
+
+
+                <pre>Ex.02
+                    <code>
+                        class Codechef
+                     {
+                          public static void main (String[] args)
+                        {
+                              String num1 = "25"; 
+                              String num2 = "69";
+                              System.out.print(num1 + num2);
+                        } 
+                     } 
+                    </code>
+
+                </pre>
+                  
+                 <h5>Output</h5>
+                 <output>2569</output>
+                 <br>
+                 <hr>
+
+                 <h3>charAt</h3>
+
+                 <pre>
+                    <code> 
+                         
+               class Codechef
+                 {
+                    public static void main (String[] args)
+                  {
+                       String word = "Programming";
+                       System.out.println(word.charAt(2));
+                       System.out.print(word.charAt(1));
+                  }
+                }
+
+                    </code>
+                 </pre>
+                 
+                 <h5>Output</h5>
+                 <output>
+                    o<br>
+                    r<br> 
+                 </output>
+                 <hr>
+
+                 <h3>toCharArray</h3>
+                 <pre>
+                    <code>
+                        class Codechef
+                        {
+                            public static void main (String[] args)
+                            {
+                                // your code goes here
+                                String word = "Ocygen";
+                                char[] wordArray = word.toCharArray();
+                                wordArray[1] = 'x';
+                                word = new String(wordArray);
+                                System.out.println(word);
+                            }
+                        }
+                        
+                        
+                    </code>
+                 </pre>
+
+
+                 <h5>Output</h5>
+                 <output>
+                    Oxygen
+                 </output>
+                 <br>
+                 <hr>
+           
+
+        
+  
+
+
+
+
+                    
+
+
+
+
+            <!--    Taking user input 
+
+            import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		// your code goes here
+		Scanner objName = new Scanner(System.in);
+		String varName = objName.nextLine();
+		System.out.println(varName);
+	}
+}
+
+     
+           Note
+           You have already seen how to read a String. Let's see how to read the other datatype values.
+
+nextInt(): Reads integer values.
+nextFloat(): Reads float value.
+nextDouble(): Reads double value.
+nextBoolean(): Reads boolean value.
+nextLine(): Reads string value until newline character ('\n') is encountered.
+next(): Reads string value until space or newline character is encountered
+
+
+
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		// update your code below this line
+         Scanner read = new Scanner(System.in);
+        int num = read.nextInt();
+        System.out.println(num * num);
+
+
+	}
+}    
+                   
+            calculator
+
+            import java.util.Scanner;
+
+class Codechef
+{
+    public static void main (String[] args)
+    {
+        // your code goes here
+        Scanner read = new Scanner(System.in);
+        int a = read.nextInt();
+        int b = read.nextInt();
+        System.out.println("Sum is: " + (a+b));
+        System.out.println("Difference is: " + (a-b));
+    }
+}-->
+
+
+
+
+             
+
+
 
         <footer>
-            <p style="text-align: center;">Stay Tune.........................................</p>
+            <p style="text-align: center;"><b>Stay Tune.........................................</b></p>
         </footer>
     </body>
 </html>
