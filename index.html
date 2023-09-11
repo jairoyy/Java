@@ -6,8 +6,8 @@
 
     </head>
     <body>
-      <h1>Day 01</h1><br>
-      <h3>Introduction to Java</h3>
+
+      <h1>Introduction to Java</h1>
       <p>Print Output using java statement:</p>
       <code>System.out.print();</code><br>
       <h3>First Program</h3>
@@ -322,76 +322,74 @@
                  <hr>
            
 
-        
-  
+            <!--    Taking user input--> 
 
 
+            <h3>Taking user input</h3>
+            
+            <pre>
+                <code>
+                    import java.util.Scanner;
 
+                    class Codechef
+                    {
+                        public static void main (String[] args)
+                        {
+                            // your code goes here
+                            Scanner objName = new Scanner(System.in);
+                            String varName = objName.nextLine();
+                            System.out.println(varName);
+                        }
+                    }
+                </code>
+            </pre>
+           <hr>
 
-                    
-
-
-
-
-            <!--    Taking user input 
-
-            import java.util.Scanner;
-
-class Codechef
-{
-	public static void main (String[] args)
-	{
-		// your code goes here
-		Scanner objName = new Scanner(System.in);
-		String varName = objName.nextLine();
-		System.out.println(varName);
-	}
-}
+           
+<br>
 
      
-           Note
-           You have already seen how to read a String. Let's see how to read the other datatype values.
+           <marquee>Note!!!!!</marquee>
+           <marquee>You have already seen how to read a String. Let's see how to read the other datatype values.</marquee>
+<ul>
+    
+           <li> nextInt(): Reads integer values.</li>
+<li>nextFloat(): Reads float value.</li>
+<li>nextDouble(): Reads double value.</li>
+<li>nextBoolean(): Reads boolean value.</li>
+<li>nextLine(): Reads string value until newline character ('\n') is encountered.</li>
 
-nextInt(): Reads integer values.
-nextFloat(): Reads float value.
-nextDouble(): Reads double value.
-nextBoolean(): Reads boolean value.
-nextLine(): Reads string value until newline character ('\n') is encountered.
-next(): Reads string value until space or newline character is encountered
-
-
-
-import java.util.Scanner;
-
-class Codechef
-{
-	public static void main (String[] args)
-	{
-		// update your code below this line
-         Scanner read = new Scanner(System.in);
-        int num = read.nextInt();
-        System.out.println(num * num);
+<li>next(): Reads string value until space or newline character is encountered.</li>
+    
+</ul>
 
 
-	}
-}    
+  
                    
-            calculator
-
+            <h4>Calculator</h4>
+            <pre>
+                <code>
+                      
             import java.util.Scanner;
 
-class Codechef
-{
-    public static void main (String[] args)
-    {
-        // your code goes here
-        Scanner read = new Scanner(System.in);
-        int a = read.nextInt();
-        int b = read.nextInt();
-        System.out.println("Sum is: " + (a+b));
-        System.out.println("Difference is: " + (a-b));
-    }
-}-->
+            class Codechef
+            {
+                public static void main (String[] args)
+                {
+                    // your code goes here
+                    Scanner read = new Scanner(System.in);
+                    int a = read.nextInt();
+                    int b = read.nextInt();
+                    System.out.println("Sum is: " + (a+b));
+                    System.out.println("Difference is: " + (a-b));
+                }
+            }
+                </code>
+            </pre>
+
+            <br>
+            <hr>
+
 
 
 
@@ -401,7 +399,7 @@ class Codechef
 
 
         <footer>
-            <p style="text-align: center;"><b>Stay Tune.........................................</b></p>
+           <marquee><p style="text-align: center;"><b>Stay Tune.........................................</b></p></marquee> 
         </footer>
     </body>
 </html>
