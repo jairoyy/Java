@@ -3,6 +3,13 @@
     <head>
         <title>Java</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&display=swap');
+</style>
 
     </head>
     <body>
@@ -99,7 +106,7 @@
        <pre>Ex.01
         <code>
               
-            class Codechef
+            class Code
             {
                 public static void main (String[] args)
                 {
@@ -123,7 +130,7 @@
 
          <pre>Ex.02
          <code>
-            class Codechef
+            class Code
             {
                 public static void main (String[] args)
                 {
@@ -148,7 +155,7 @@
         <pre>Ex.03
 
             <code>
-            class Codechef
+            class Code
             {
                 public static void main (String[] args)
                 {
@@ -171,7 +178,7 @@
       
         <pre>Ex.04
           <code>
-            class Codechef
+            class Code
             {
                 public static void main (String[] args)
                 {
@@ -208,7 +215,7 @@
 
               <pre>
                 <code>
-                    class Codechef
+                    class Code
                     {
                         public static void main (String[] args)
                         {
@@ -229,7 +236,7 @@
 
                  <pre>Ex.01
                   <output>
-                    class Codechef
+                    class Code
                     {
                         public static void main (String[] args)
                         {
@@ -250,7 +257,7 @@
 
                 <pre>Ex.02
                     <code>
-                        class Codechef
+                        class Code
                      {
                           public static void main (String[] args)
                         {
@@ -273,7 +280,7 @@
                  <pre>
                     <code> 
                          
-               class Codechef
+               class Code
                  {
                     public static void main (String[] args)
                   {
@@ -296,7 +303,7 @@
                  <h3>toCharArray</h3>
                  <pre>
                     <code>
-                        class Codechef
+                        class Code
                         {
                             public static void main (String[] args)
                             {
@@ -331,7 +338,7 @@
                 <code>
                     import java.util.Scanner;
 
-                    class Codechef
+                    class Code
                     {
                         public static void main (String[] args)
                         {
@@ -372,7 +379,7 @@
                       
             import java.util.Scanner;
 
-            class Codechef
+            class Code
             {
                 public static void main (String[] args)
                 {
@@ -392,10 +399,306 @@
 
 
 
+             <pre>
+                <code>
+                    import java.util.Scanner;
+
+                    class Code
+                    {
+                        public static void main (String[] args)
+                        {
+                           
+                            Scanner read = new Scanner(System.in);
+                            String x = read.nextLine();
+                            System.out.println("Hello " + x);
+                        }
+                    }
+                    </code>
+                    </pre>
+
+                    <pre>
+                        <code>
+                            import java.util.Scanner;
+                            class Code {
+                                public static void main(String[] args) {
+                                  Scanner read = new Scanner(System.in);
+                                  String s = read.nextLine();
+                                  System.out.println("Your name is: " + s);
+                                }
+                              }
+                        </code>
+                    </pre>
+                  
+                
+            
+<br>
 
 
+           <h3>Example</h3>
+
+              <h6>What will be the output of this code, if the user enters a = 5 and b = 9?</h6>
+
+              <pre>
+                <code>
+                    import java.util.Scanner;
+                    class Code {
+                      public static void main(String[] args) {
+                          Scanner read = new Scanner(System.in);
+                          int a = read.nextInt();
+                          int b = read.nextInt();
+                          System.out.println(a + "" + b + "" + (a + b));
+                      }
+                  }
+                </code>
+              </pre>
+        
+              
+              <hr>
+              <br>
+
+           <pre>
+            <code>
+                import java.util.Scanner;
+                public class Code{
+                  public static void main(String[] args) {
+                    Scanner read = new Scanner(System.in);
+                    int a = read.nextInt();
+                    int b = read.nextInt();
+                    int c = a + 2;
+                    int d = c + b;
+                    System.out.println(d);
+                  }
+                }
+    
+            </code>
+           </pre>
+            
+
+<br>
+<hr>
+
+            <!--If else statements-->
+
+
+            <h3>If else statements</h3>
+
+            <ol>
+                <li> 'if' and 'else' can be used together to create conditions.</li>
+                <li>It returns 1 if the condition is true and 0 if the condition is false.</li>
+                <li>There are multiple operators which can be used in conditional statements.</li>
+            </ol>
+                <ul>
+                    <li>Equal to '=='</li>
+                    <li>Not Equal '!='</li>
+                    <li>Greater than '>'</li>
+                    <li>Less than '<'</li>
+                    <li>Greater than or equal to '>='</li>
+                    <li>Less than or equal to '<='</li>
+                </ul>
+            
+       
+           
+            <pre>
+                <code>
+                    class Code
+                    {
+                        public static void main (String[] args)
+                        {
+                            int Age = 25;
+                            int Vage = 18;
+                    
+                            if (Age >= Vage) {
+                                System.out.println("Old enough to vote!");
+                            } else {
+                                System.out.println("Not old enough to vote.");
+                            }
+                        }
+                    }       
+                </code>
+            </pre>
+              
+            <hr>
+            
+          <pre>
+            <code>
+                import java.util.Scanner;
+
+                class Code
+                {
+                    public static void main (String[] args)
+                    {
+                        // your code goes here
+                        Scanner read = new Scanner(System.in);
+                        int a = read.nextInt();
+                        int b = read.nextInt();
+                        if ( a > b){
+                            System.out.print("Coding is Fun!");
+                        }
+                    }
+                }
+            </code>
+          </pre>
+            
+<hr>
+
+       <pre>
+        <code>
+            import java.util.Scanner;
+
+
+            class Code
+            {
+                public static void main (String[] args)
+                {
+                    // your code goes here
+                    int b = 23;
+                    int r = 45;
+                    if(r > b){
+                        System.out.println("Rob scored higher marks than Bob.");
+                    }
+                    else if(r == b){
+                        System.out.println("Bob & Rob both scored the same");
+                    }
+                    
+                    b = 15;
+                    r = 15;
+                    if(r > b){
+                        System.out.println("Rob scored higher marks than Bob.");
+                    }
+                    else if(r == b){
+                        System.out.println("Bob & Rob both scored the same");
+                    }
+                    
+                }
+            }
+                  
+        </code>
+       </pre>
+
+<hr>
+
+     <pre>
+        <code>
+            import java.util.*;
+
+            class Code
+            {
+                public static void main (String[] args)
+                {
+                    int r;
+                    int k;
+                    r = 24;
+                    k = 32;
+                    if (r > k) {
+                        System.out.println("Ram is heavier than Karan.");
+                    } else if (r < k) {
+                        System.out.println("Karan is heavier than Ram");
+                    } else {
+                        System.out.println("Ram & Karan have the same weight!");
+                    }
+            
+                    r = 78;
+                    k = 78;
+                    if (r > k) {
+                        System.out.println("Ram is heavier than Karan.");
+                    } else if (r < k) {
+                        System.out.println("Karan is heavier than Ram");
+                    } else {
+                        System.out.println("Ram & Karan have the same weight!");
+                    }
+                }
+            }
              
+        </code>
+        
+     </pre>
 
+
+<hr>
+
+
+           
+
+               <!--Array-->
+
+
+               <h3>Array</h3>
+                 <p>Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.</p><br>
+                 <p>To declare an array,</p>
+                 <ul>
+                    <li>Define the variable type followed by square brackets,</li>
+                    <li>Specify the name of the array</li>
+                    <li>Specify the number of elements it should store.</li>
+
+                </ul>
+
+ 
+                <code>String[] chocolate = {"Ferrero Rocher", "Alpenliebe", "Cadbury"};</code>
+
+
+        <br>
+           
+        <pre>
+            <code>
+                class Code
+                {
+                    public static void main (String[] args)
+                    {
+                        
+                        int[] num = {1, 2, 3, 4, 5};
+                        System.out.print("Done");
+                        
+                    }
+                }
+            </code>
+            </pre>
+
+ 
+
+                  <br>
+                  <hr>
+
+                  <pre>
+                    <code>
+                                                                                  
+           class Code
+    {
+	public static void main (String[] args)
+	     {
+		// your code goes here
+		String[] mnts = {"Jan", "Feb", "Dec", "Apr"};
+		mnts[2] = "Mar";
+		System.out.print(mnts[2]);
+	   }
+     } 
+                    </code>
+                  </pre>
+                  
+                
+
+
+
+
+
+
+
+
+ 
+                  
+
+
+
+
+
+
+<!--Loops can execute a block of code as long as a specified condition is reached.
+They are handy because they save time, reduce errors, and they make code more readable.
+The while loop loops through a block of code as long as a specified condition is true:
+
+Syntax - while (condition) {
+             // code to be executed
+         }
+        -->        
 
 
         <footer>
